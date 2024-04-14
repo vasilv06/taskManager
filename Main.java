@@ -118,7 +118,7 @@ public class Main {
 
             try {
                 int choice = scanner.nextInt();
-                scanner.nextLine(); // Consume newline
+                scanner.nextLine();
 
                 switch (choice) {
                     case 1:
@@ -161,7 +161,7 @@ public class Main {
                 System.out.println();
             } catch (Exception e) {
                 System.out.println("Error: " + e.getMessage());
-                scanner.nextLine(); // Consume newline
+                scanner.nextLine(); 
             }
         }
     }
